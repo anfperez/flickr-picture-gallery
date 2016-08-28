@@ -13,6 +13,9 @@
 </ul>
 
 <h2> Issues to debug </h2>
+<ul>
+<li> When a user clicks on an image, they are shown a larger version of that image. The larger versions look fine when the image is horizontally-oriented, but vertically-oriented images are slightly distorted. I suspect that by changing the height and width attribute of the clicked-on image will fix this distortion </li
+</ul>
 
 <h2> Writing Process </h2>
 <p> The least difficult part for me was calling down the API from Flickr. After signing up for an API key, I was able to obtain an API key that did not expire. Saving the image URLs in variables and appending them to a div was also not difficult for me.<p>
