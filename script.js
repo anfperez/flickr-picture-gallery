@@ -52,7 +52,7 @@ $(document).ready(function() {
         var src = $(this).attr('src')
 
         //this variable takes the "src" variable, slices the last six characters, and replaces it with "_c.jpg", a large version of the image URL
-        var src_l = src.slice(0, -6) + "_c.jpg"
+        var src_l = src.slice(0, -6) + "_c.jpg"  
 
         //gives the "frame img" element a new attribute, which is the large image URL
         $('#frame img').attr('src', src_l);
@@ -88,7 +88,7 @@ $(document).ready(function() {
            };
         
       var settings = {};
-          
+
       $.extend(settings, defaults, options);
            
       var itemsPerPage = settings.itemsPerPage;
