@@ -1,0 +1,45 @@
+<html>
+
+  <head>
+    <meta charset = "utf-8">
+    <title> Flickr Picture Gallery </title>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <h1> Flickr Pic Generator </h1>
+
+
+    <p> Click on any picture to see a larger version. When you're done looking, click outside the picture to return to the main gallery. </p>
+
+    <!--this will contain the overlay when a picture is clicked -->
+
+    <div id = "overlay"> 
+
+    </div>
+
+    <!--this will contain the image when a picture is clicked -->
+    <div id = "frame"> 
+      <img src= "" alt = "" />
+    </div>
+
+    </div> 
+
+    <!--as the API is called, images will populate into this list -->
+    <div id="photo-list">
+
+    </div>
+
+    <!--a ul with li tags will be appended into this div once the API is called and the number of pages is calculated -->
+    <div class = "pagination"> 
+
+    </div>
+    
+
+    <script type="text/javascript" src="jquery-3.1.0.js"></script>
+    
+    <script src ="script.js"></script>
+
+  </body>

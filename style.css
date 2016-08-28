@@ -1,0 +1,66 @@
+body {
+font-family: 'PT Serif', serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+}
+
+/* contains the img tags with the "paginate" class */
+#photo-list {
+  margin: auto;
+  padding: 5px;
+
+}
+
+/* appended to the photo-list by script.js */
+img {
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+}
+
+/* class that allows images to paginate */
+.paginate {
+  height: 200px;
+}
+
+/* contains the li tags that will become page numbers */
+ul {
+  text-align: center;
+}
+
+/* styles the page numbers */
+li {
+  background-color: pink;
+  list-style-type: none;
+  display: inline; 
+  padding: 5px; 
+  margin: 5px;
+}
+
+/* pops up when the user clicks on a picture */
+#overlay {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: black;
+  opacity: 0.7;
+}
+
+/* pops up when user clicks on a picture, contains a larger version of the picture */
+#frame img {
+  display: none; 
+  position: fixed;
+  background-color: white;
+  width: 700px;
+  height: 500px;
+  margin-left: -350px;
+  left: 50%;
+}
