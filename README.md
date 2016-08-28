@@ -3,6 +3,13 @@
 <h2> Description </h2> 
 <p> This is a simple gallery that utilizes the Flickr API. </p>
 
+<h2> Technologies </h2
+<ul>
+<li> HTML </li>
+<li> CSS </li>
+<li> JavaScript/jQuery 3-1.1 </li>
+</ul>
+
 <h2> Features </h2>
 <ul>
 <li> AJAX call to Flickr API pulls down images </li>
