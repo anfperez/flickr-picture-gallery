@@ -14,7 +14,7 @@
 
 <h2> Issues to debug </h2>
 <ul>
-<li> When a user clicks on an image, they are shown a larger version of that image. The larger versions look fine when the image is horizontally-oriented, but vertically-oriented images are slightly distorted. I suspect that by changing the height and width attribute of the clicked-on image will fix this distortion </li
+<li> When a user clicks on an image, they are shown a larger version of that image. The larger versions look fine when the image is horizontally-oriented, but vertically-oriented images are slightly distorted. I suspect that by changing the height and width attribute of the clicked-on image will fix this distortion </li>
 </ul>
 
 <h2> Writing Process </h2>
