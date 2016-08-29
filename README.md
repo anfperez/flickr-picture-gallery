@@ -8,6 +8,7 @@
 <li> HTML </li>
 <li> CSS </li>
 <li> JavaScript/jQuery 3-1.1 </li>
+<liL Flickr API </li>
 </ul>
 
 <h2> Features </h2>
