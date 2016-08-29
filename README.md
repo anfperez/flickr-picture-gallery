@@ -22,7 +22,7 @@
 
 <h2> Issues to debug </h2>
 <ul>
-<li> When a user clicks on an image, they are shown a larger version of that image. The larger versions look fine when the image is horizontally-oriented, but vertically-oriented images are slightly distorted. I suspect that I can solve this problem by changing the height and width attribute of the '#frame img' div to pull the css attributes of the actual image URL I am calling from. In the meantime, I discovered a slight fix by giving the #frame img tag a new CSS attribute: height: auto. This partially solves the problem, but the bottoms of some pictures are still slightly cut off. </li>
+<li> When a user clicks on an image, they are shown a larger version of that image. The larger versions look fine when the image is horizontally-oriented, but vertically-oriented images are slightly distorted. I suspect that I can solve this problem by changing the height and width attribute of the '#frame img' tag to pull the css attributes of the actual image URL I am calling from. In the meantime, I discovered a slight fix by giving the '#frame img' tag a new CSS attribute: height: auto. This partially solves the problem, but the bottoms of some pictures are still slightly cut off. </li>
 </ul>
 
 <h2> Writing Process </h2>
