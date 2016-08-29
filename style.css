@@ -21,6 +21,7 @@ img {
   height: 200px;
   width: 200px;
   padding: 10px;
+  cursor: pointer;
 }
 
 /* styles the page numbers */
@@ -48,7 +49,7 @@ li {
   position: fixed;
   background-color: white;
   width: 700px;
-  height: 500px;
+  height: auto;
   margin-left: -350px;
   left: 50%;
 }
