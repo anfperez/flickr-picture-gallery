@@ -21,7 +21,7 @@
 
 <h2> Issues to debug </h2>
 <ul>
-<li> When a user clicks on an image, they are shown a larger version of that image. The larger versions look fine when the image is horizontally-oriented, but vertically-oriented images are slightly distorted. I suspect that by changing the height and width attribute of the clicked-on image will fix this distortion. I have been trying to solve this issue, but have not reached a satisfactory result yet. If I had a few more days, I think I would be able to figure it out. </li>
+<li> When a user clicks on an image, they are shown a larger version of that image. The larger versions look fine when the image is horizontally-oriented, but vertically-oriented images are slightly distorted. I suspect that by changing the height and width attribute of the clicked-on image to pull the css attributes of the actual image URL I am calling from. I have been trying to solve this issue, but have not reached a satisfactory result yet.</li>
 </ul>
 
 <h2> Writing Process </h2>
@@ -30,7 +30,7 @@
 <p> Implementing the overlay and the frame was not too difficult. Thankfully Flickr had different sized versions of the image to choose from. </p>
 <p> One minor bug I had was that, at first, the "paginate" class was being added to every img tag on the page, including the blank img tag inside the div with the class "frame". This was causing issues with pagination, since my function "customPaginate" was including that blank img tag as part of the images to be paginated. It took me some to figure out that all I had to do was specify which images to paginate ("#frame img") and the pages loaded correctly.</p>
 
-<h2> Improvements </h2>
+<h2> Future Improvements </h2>
 <ul>
 <li> give users the option to select which size of images they want to see </li>
 <li> allow users to search for key terms, return the images relevant to their search items</li>
