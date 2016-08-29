@@ -26,7 +26,7 @@
 </ul>
 
 <h2> Writing Process </h2>
-<p> The least difficult part for me was calling down the API from Flickr. After signing up for an API key, I was able to obtain an API key that did not expire. Saving the image URLs in variables and appending to a div was fairly easy.<p>
+<p> The least difficult part for me was calling down the API from Flickr. After signing up for an API key, I was able to obtain an API key that did not expire. Saving the image URLs and data in variables and appending new img tags to a div was fairly easy.<p>
 <p> Pagination was a topic that I did some research on before deciding to write my own code for it. I experimented with different jQuery plugins such as easyPaginate.js and simplePagination.js, but I ultimately decided that I would rather write code that I understood myself before using a plugin.</p>
 <p> Implementing the overlay and the frame was not too difficult. Thankfully Flickr had different sized versions of the image to choose from, so that when a user clicks on an image, they are presented with a larger version of that image.</p>
 <p> One minor bug I had was that, at first, the "paginate" class was being added to every img tag on the page, including the blank img tag inside the div with the class "frame". This was causing issues with pagination, since my function "customPaginate" was including that blank img tag as part of the images to be paginated. It took me some to figure out that all I had to do was specify which images to paginate ("#frame img") and the pages loaded correctly.</p>
