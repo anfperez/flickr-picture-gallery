@@ -9,11 +9,16 @@ h1, p, ul, #photo-list {
 
 h1, #photo-list {
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 /* contains the img tags with the "paginate" class */
 #photo-list, li {
   padding: 5px;
+
 }
 
 /* appended to the photo-list by script.js */
@@ -53,3 +58,36 @@ li {
   margin-left: -350px;
   left: 50%;
 }
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* one example of special @media tag for different size screens; other devices would need their own tags */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+  p {
+      font-size: 40px !important;
+  }
+  h1 {
+    font-size: 50px !important;
+  }
+
+  h1, #photo-list {
+    flex-direction: column;
+  }
+  .paginate {
+    align-items: center;
+    justify-content: center;
+    width: 90% !important;
+    height: 50% !important;
+    padding: 10px !important;
+  }
+  li {
+  font-size: 25px !important;
+  width: 100px !important; 
+  padding: 20px !important;
+  margin: 20px;
+}
+    }
